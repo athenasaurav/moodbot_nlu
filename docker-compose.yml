@@ -5,7 +5,7 @@ services:
       build: 
         context: backend
       ports: 
-        - "5005:5005"
+        - "5000:5000"
     action_server:
       container_name: "action_server"
       build: 
