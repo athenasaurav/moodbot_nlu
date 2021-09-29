@@ -11,6 +11,6 @@ VOLUME /app/data
 VOLUME /app/models
 
 
-CMD [ "run","-m", "/app/models","--enable-api","--cors","*","--debug", "-p","9000" ]
+CMD [ "run","-m", "/app/models","--enable-api","--cors","*","--debug", "-p","5000" ]
 
  
